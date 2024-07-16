@@ -8,7 +8,7 @@ Techniques Used
 Image Resizing: The original image is 978×978 pixels and The fully annotated image is 938×939 pixels.
 Open CV: Haar Cascade Classifier is used for detecting cat faces in the grayscale image.
 The detection parameters are tuned to ensure only one cat face is detected, which helps avoid false positives.
-h􏰁ps://pyimagesearch.com/2016/06/20/detec􏰀ng-cats-in-images-with-opencv/
+https://pyimagesearch.com/2016/06/20/detecting-cats-in-images-with-opencv/
 Dynamic Bounding Box Expansion: Bounding box around cat face is dynamically expanded, and checks for similar pixels to mark the area of interest.
 Mask Creaton: mask the area of interest on fully annotated image.
 Result: The difference between Original and Fully annotated image is taken to create the Partially annotated image.
